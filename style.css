@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Funnel+Display:wght@300..800&family=Gorditas:wght@400;700&family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+/*navication bar design*/
+
+.hed-logo{
+    font-size: 40px;
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 800;
+    color: #3457b2;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(82, 82, 96);
+    font-weight: 600;
+    float: left;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    left: 300px;
+    bottom: 41px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    outline: none;
+    left: 83%;
+    bottom: 87px;
+    cursor: pointer;
+}
+
+/*container-1 design*/
+
+.hat{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+.main-hed{
+    font-size: 60px;
+    line-height: 1.4;
+    font-weight: 800;
+    position: relative;
+    left: 150px;
+    bottom: 90px;
+}
+.img-girl{
+    position: relative;
+    left: 790px;
+    bottom: 360px;
+    height: 550px;
+    width: 680px;
+}
+.message{
+    font-size: 18px;
+    position: relative;
+    bottom: 600px;
+    left: 150px;
+    line-height: 1.6;
+}
+.btn-2{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(23, 135, 255);
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    position: relative;
+    bottom: 560px;
+    left: 150px;
+    cursor: pointer;
+}
+.play{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 538px;
+    left: 190px;
+}
+.message-paly{
+    position: relative;
+    bottom: 590px;
+    left: 420px;
+    font-weight: 550;
+}
+
+/*container-2 design*/
+
+.logo-sub{
+    height: 70px;
+    width: 110px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 170px;
+    position: relative;
+    bottom: 450px;
+    left: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.logo-sub:hover{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 0.10s ease-in-out;
+}
+
+
+/*container-3 design*/
+
+.course{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(58, 58, 59);
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+}
+.btn-3{
+    height: 40px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid rgb(123, 180, 245);
+    background-color: transparent;
+    left: 80%;
+    bottom: 332px;
+    cursor: pointer;
+}
+
+.box-1{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 240px;
+    left: 150px;
+    display: inline-block;
+    margin-right: 170px;
+}
+.box-2{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 240px;
+    left: 150px;
+    display: inline-block;
+    margin-right: 170px;
+}
+.box-3{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 240px;
+    left: 150px;
+    display: inline-block;
+    margin-right: 170px;
+}
+
+.box-1:hover{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 0.10s ease-in-out;
+}
+.box-2:hover{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 0.10s ease-in-out;
+}
+.box-3:hover{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 0.10s ease-in-out;
+}
+.img-box{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.imgbox-small{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.box-let{
+    font-size: 8px;
+    position: relative;
+    left: 40px;
+    bottom: 6px;
+    color: #6561d5;
+}
+.star-let{
+    font-size: 8px;
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+    color: #6561d5;
+    font-weight: 500;
+}
+.stars-svg{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 190px;
+    bottom: 27px;
+}
+.sub-heding{
+    color: rgb(65, 66, 66);
+    position: relative;
+    left: 10px;
+}
+.clock{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+.timing{
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.euro{
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    left: 240px;
+    bottom: 17px;
+}
+
+/*container-4 design*/
+
+.categorie{
+    font-size: 30px;
+    font-weight: 600;
+}
+.categorie{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(58, 58, 59);
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+.btn-4{
+    height: 40px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid rgb(123, 180, 245);
+    background-color: transparent;
+    left: 80%;
+    bottom: 132px;
+    cursor: pointer;
+}
+.btn-4:hover{
+    color: white;
+    background-color: #3457b2;
+    border: none;
+    transition: 3s ease-in ease-out;
+}
+.sub-box1{
+    background-color: #2e81e7;
+    height: 250px;
+    width: 270px;
+    border-radius: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.sub-box1:hover{
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.3);
+    transition: 0.10s ease-in-out;
+}
+.sub-box2{
+    background-color: #fac000;
+    height: 250px;
+    width: 270px;
+    border-radius: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    display: inline-block;
+    margin-right: 50px; 
+}
+.design2{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.sub-box2:hover{
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.3);
+    transition: 0.10s ease-in-out;
+}
+.sub-box3{
+    background-color: #00ff37;
+    height: 250px;
+    width: 270px;
+    border-radius: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.design3{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.sub-box3:hover{
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.3);
+    transition: 0.10s ease-in-out;
+}
+.sub-box4{
+    background-color: #a700fb;
+    height: 250px;
+    width: 270px;
+    border-radius: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.design4{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.sub-box4:hover{
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.3);
+    transition: 0.10s ease-in-out;
+}
+.sub-icon{
+    height: 80px;
+    width: 80px;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.design{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.videso{
+    font-size: 15px;
+    color: white;
+    padding-left: 75px;
+    padding-top: 5px;
+}
+
+/*container-5 design*/
+
+.categorie-5{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(58, 58, 59);
+    position: relative;
+    top: 70px;
+    left: 150px;
+}
+.btn-5{
+    height: 40px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid rgb(123, 180, 245);
+    background-color: transparent;
+    left: 80%;
+    top: 28px;
+    cursor: pointer;
+}
+.imges-2{
+    position: relative;
+    right: 50px;
+}
+.sub-lable-image{
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+.lable-name{
+    position: relative;
+    left: 200px;
+    top: 180px;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+}
+.lable-date{
+    position: relative;
+    left: 400px;
+    top: 157px;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+}
+.lable-hed{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-weight: 600;
+}
+.btn-6{
+    height: 45px;
+    width: 135px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid rgb(123, 180, 245);
+    background-color: transparent;
+    left: 200px;
+    top: 28px;
+    cursor: pointer;
+}
+.btn-6:hover{
+    color: white;
+    background-color: #3457b2;
+    border: none;
+    transition: 3s ease-in ease-out;
+}
+.sub-labele1{
+    display: inline-block;
+}
+.sub-labele2{
+    display: inline-block;
+}
+.sub-labele3{
+    display: inline-block;
+}
+
+/*container-5 design*/
+
+.main-box{
+    height: 200px;
+    width: 80%;
+    background-color: #c8fff7aa;
+    border-radius: 30px;
+    margin-left: 133px;
+    margin-top: 200px;
+}
+.mainbox-letter{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 80px;
+    position: relative;
+    top: 50px;
+}
+.btn-7{
+    height: 60px;
+    width: 250px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #2e81e7;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: none;
+    left: 73%;
+    bottom: 20px;
+    cursor: pointer;
+}
+/*footer design*/
+.hedlogo2{
+    font-size: 60px;
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 1000;
+    color: #3457b2;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.link-1{
+    position: relative;
+    left: 330px;
+    bottom: 60px;
+    font-weight: 500; 
+    font-size: 19px;
+}
+.link-sub{
+    position: relative;
+    left: 330px;
+    bottom: 30px;
+    line-height: 1.9;
+    list-style-type: none;
+}
+
+.links{
+    display: inline-block;
+}
+.links-1{
+    display: inline-block;
+    margin-left: 180px;
+}
+.links-2{
+    display: inline-block;
+    margin-left: 180px;
+}
+.flow{
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    left: 75%;
+    bottom: 239px;
+}
+.socal-icons img{
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 74%;
+    bottom: 210px;
+    cursor: pointer;
+}
+.btn-8{
+    height: 60px;
+    width: 250px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #eb5707;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: none;
+    left: 61%;
+    bottom: 140px;
+    cursor: pointer;
+}
+.lign{
+    width: 80%;
+    position: relative;
+    left: 280px;
+    top: 180px;
+    background-color: #404043;
+}
+
+.social-ox1{
+    margin-left: 20%;
+    position: relative;
+}
+.social-ox{
+    margin-left: 74%;
+    position: relative;
+    bottom: 25px;
+}
